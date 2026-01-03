@@ -1,0 +1,10 @@
+[MESSAGE CONTROL]
+# C0114: Missing module docstring
+# R0903: Too few public methods
+disable = 
+    C0114,
+    R0903
+
+[REPORTS]
+# See the output format to be more readable
+output-format = colorized

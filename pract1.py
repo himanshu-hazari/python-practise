@@ -1,6 +1,3 @@
-"""
-This module is for practising python
-"""
 def print_prime(n:int) -> list:
     """
     Print list of prime numbers from the range of numbers given

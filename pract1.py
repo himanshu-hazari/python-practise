@@ -1,9 +1,14 @@
 #Simple loop test
 #check prime or not
-from math import sqrt
-
-
 def print_prime(n:int) -> list:
+    """
+    print list of prime numbers
+    
+    :param n: Range of number
+    :type n: int
+    :return: List of prime numbers from range
+    :rtype: list
+    """
     prime_n = [1]
     for _ in range(1,n+1):
         # print(_)

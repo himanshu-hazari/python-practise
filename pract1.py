@@ -1,16 +1,6 @@
-#Simple loop test
-#check prime or not
-"""
-    print list of prime numbers
-    
-    :param n: Range of number
-    :type n: int
-    :return: List of prime numbers from range
-    :rtype: list
-"""
 def print_prime(n:int) -> list:
     """
-    print list of prime numbers
+    Print list of prime numbers from the range of numbers given
     
     :param n: Range of number
     :type n: int

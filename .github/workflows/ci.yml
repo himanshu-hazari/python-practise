@@ -22,3 +22,5 @@ jobs:
           pip install pylint pytest
       - name: Analysing the code
         run: pylint --fail-under=8 $(git ls-files '*.py')
+      - name: Run test
+        run: pytest tests/
